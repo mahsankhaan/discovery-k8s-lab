@@ -34,8 +34,6 @@ __Note:__ Key: __oslab__ ,Your IBMid : __email__ used to create ibm account
 
 ### Step 1
 
-Make sure you are using __Advowork__ account, where your kubernetes cluster is running
-
 Start by logging in to IBM Cloud:
 
 ```sh
