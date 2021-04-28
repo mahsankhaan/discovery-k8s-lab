@@ -52,7 +52,7 @@ ibmcloud cr login
 Add a namespace for your project at IBM Container Registry (ICR):
 
 ```sh
-export ICR_NAMESPACE=reg-0345
+export ICR_NAMESPACE=reg-0312
 
 ibmcloud cr namespace-add $ICR_NAMESPACE
 ```
