@@ -59,7 +59,7 @@ ibmcloud cr namespace-add $ICR_NAMESPACE
 
 ### Step 4
 
-1. Make sure to clone the repository and under the dir
+1. Make sure to clone the repository and under the __discovery-k8s-lab__ directory
 
 2. Let's build the app. Build a Docker image for the app, tag and push it to ICR under your namespace:
 
