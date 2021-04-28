@@ -20,7 +20,9 @@ ibmcloud plugin install kubernetes-service
 ibmcloud plugin install container-registry
 ```
 
-Create a free 1 worker [IBM Kubernetes Service](https://cloud.ibm.com/kubernetes/catalog/create) cluster.
+Get free kubernetes cluster [IBM Kubernetes Service](https://cfclab.mybluemix.net/) cluster.
+__Note: Key: oslab ,Your IBMid : email used to create ibm account
+
 
 And finally, create a free [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) instance.
 
