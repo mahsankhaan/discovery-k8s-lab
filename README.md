@@ -29,7 +29,8 @@ __Note:__ Key: __oslab__ ,Your IBMid : __email__ used to create ibm account
 
 ## Step-by-step
 
-This step-by-step guide assumes a Linux/Unix like shell usage. Slight adaptations might be necessary for different CLI shells.
+Make sure you are using __Advowork__ account, where your cluster is running
+
 
 ### Step 1
 
