@@ -142,42 +142,6 @@ Access the app! The URL should be formatted like this: `http://<worker_ip>:<node
 
 ![Screenshot](./doc/images/screenshot.png)
 
-### Step 12
+Congratulations, you now have an app running!
 
-Congratulations, you now have an app running! We want to make sure it keeps running smoothly, so let's set up Observability with New Relic.
 
-First [register for a free New Relic account](https://newrelic.com/signup?utm_source=callforcode2021)
-
-Then [log in to your New Relic account](https://one.newrelic.com/) and follow the guided install for Kubernetes. During the guided install you will have to:
-
-1. Give your cluster a meaningful name
-1. Accept all setup options
-1. Choose `Manifest`
-1. Download the manifest file
-1. Apply the manifest file with `kubectl apply -f <PATH_TO_DOWNLOADED_FILE> -n default`
-1. You can first do the next step before going into the Kubernetes Cluster Explorer
-
-We also want detailed application monitoring, and to get that, we only need to update the `server/deployment.yaml` file and uncomment the `NEW_RELIC_LICENSE_KEY` and `NEW_RELIC_APP_NAME` environment variable definitions.
-
-Now redeploy our app:
-
-```sh
-kubectl apply -f server/deployment.yaml
-```
-
-_The Node.js app is already instrumented with New Relic:_
-
-- _The New Relic library was imported with a `require('newrelic');` in the main module (`src/index.ts`)_
-- _The `package.json` file includes `newrelic` as a dependency_
-
-Now navigate to the New Relic Kubernetes Cluster Explorer and see what's happening in your cluster.
-
-If you filter by the `discovery-demo-app` deployment, you can see the status of the running pod (click on the pod to see its status):
-
-![New Relic Dashboard](./doc/images/dashboard.png)
-
-You can also see the response times for your service, do that by going to `Explorer > APM` and searching for `discovery-demo`.
-
-![Service response time](./doc/images/response-time.png)
-
-Much more can be done within New Relic One. If you want to learn more about the Kubernetes Cluster Explorer, watch [this video](https://www.youtube.com/watch?v=RKaEt26HjhI&ab_channel=NewRelic).
