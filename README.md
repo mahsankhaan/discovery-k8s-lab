@@ -33,6 +33,8 @@ This step-by-step guide assumes a Linux/Unix like shell usage. Slight adaptation
 
 ### Step 1
 
+Make sure you are using __Advowork__ account, where your cluster is running
+
 Start by logging in to IBM Cloud:
 
 ```sh
@@ -75,9 +77,7 @@ docker push $APP_IMAGENAME
 (building the image should take a few minutes)
 
 ### Step 5
-1. Connect to your IBM Kubernetes Service (IKS) cluster
-1. Logout from IBM account and login again, and use __Advowork__ as a target account.
-
+ Connect to your IBM Kubernetes Service (IKS) cluster
     ```sh
     ibmcloud ks cluster config --cluster <your_cluster_name>    
     ```
