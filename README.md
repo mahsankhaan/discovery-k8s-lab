@@ -29,7 +29,7 @@ __Note:__ Key: __oslab__ ,Your IBMid : __email__ used to create ibm account
 
 ## Step-by-step
 
-Make sure you are using __Advowork__ account, where your cluster is running
+[ **IMPORTANT NOTE ]Make sure you are using __Advowork__ account, where your cluster is running **
 
 
 ### Step 1
