@@ -47,4 +47,3 @@ spec:
             #  value: "discovery-demo"
       dnsPolicy: ClusterFirst
       restartPolicy: Always
-      terminationGracePeriodSeconds: 30
