@@ -34,7 +34,7 @@ Make sure you are using __Advowork__ account, where your cluster is running
 
 ### Step 1
 
-Make sure you are using __Advowork__ account, where your cluster is running
+Make sure you are using __Advowork__ account, where your kubernetes cluster is running
 
 Start by logging in to IBM Cloud:
 
