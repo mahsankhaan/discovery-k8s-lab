@@ -52,9 +52,7 @@ ibmcloud cr login
 Add a namespace for your project at IBM Container Registry (ICR):
 
 ```sh
-export ICR_NAMESPACE=reg0312
-
-ibmcloud cr namespace-add $ICR_NAMESPACE
+ibmcloud cr namespace-add reg0312
 ```
 
 ### Step 4
@@ -67,7 +65,7 @@ ibmcloud cr namespace-add $ICR_NAMESPACE
 
 
 ```sh
-export APP_IMAGENAME=de.icr.io/$ICR_NAMESPACE/discovery-demo-app:v1
+export APP_IMAGENAME=de.icr.io/reg0312/discovery-demo-app:v1
 docker build -t $APP_IMAGENAME .
 docker push $APP_IMAGENAME
 ```
