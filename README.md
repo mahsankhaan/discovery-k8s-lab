@@ -65,7 +65,7 @@ ibmcloud cr namespace-add reg0312
 
 
 ```sh
-export APP_IMAGENAME=de.icr.io/reg0312/discovery-demo-app:v1
+export APP_IMAGENAME=us.icr.io/$ICR_NAMESPACE/discovery-demo-app:v1
 docker build -t $APP_IMAGENAME .
 docker push $APP_IMAGENAME
 ```
@@ -95,7 +95,7 @@ kubectl create secret generic discovery-credentials --from-literal=api-key=$DISC
 
 ### Step 7
 
-Now we will deploy our built image to Kubernetes. First, update the [./server/deployment.yaml](./server/deployment.yaml) file to match your image name(use __de.icr.io/reg0312/discovery-demo-app__). You should update the line 24's image value - updating just the namespace will do just fine. **This is important!** Not changing the image name will cause your pod to not find any images. 
+Now we will deploy our built image to Kubernetes. First, update the [./server/deployment.yaml](./server/deployment.yaml) file to match your image name(use __us.icr.io/$ICR_NAMESPACE/discovery-demo-app:v1__). You should update the line 24's image value - updating just the namespace will do just fine. **This is important!** Not changing the image name will cause your pod to not find any images. 
 After doing that, we can deploy:
 
 ```sh
