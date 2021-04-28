@@ -76,7 +76,8 @@ docker push $APP_IMAGENAME
 (building the image should take a few minutes)
 
 ### Step 5
- Connect to your IBM Kubernetes Service (IKS) cluster
+Connect to your IBM Kubernetes Service (IKS) cluster
+    
     ```sh
     ibmcloud ks cluster config --cluster <your_cluster_name>    
     ```
