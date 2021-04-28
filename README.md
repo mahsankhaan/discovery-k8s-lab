@@ -63,6 +63,8 @@ ibmcloud cr namespace-add $ICR_NAMESPACE
 
 2. Let's build the app. Build a Docker image for the app, tag and push it to ICR under your namespace:
 
+3. Make sure image is available under [namespace](https://cloud.ibm.com/registry/namespaces)
+
 
 ```sh
 export APP_IMAGENAME=de.icr.io/$ICR_NAMESPACE/discovery-demo-app:v1
