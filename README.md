@@ -42,10 +42,10 @@ ibmcloud login
 
 ### Step 2
 
-Login to IBM Container Registry as well:
+Login to IBM Container Registry as well, don't select any region:
 
 ```sh
-ibmcloud cr login
+sudo ibmcloud cr login
 ```
 
 ### Step 3
