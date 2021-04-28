@@ -36,7 +36,7 @@ __Note:__ Key: __oslab__ ,Your IBMid : __email__ used to create ibm account
 
 Start by logging in to IBM Cloud:
 
-![Screenshot](./doc/images/s1.jpg)
+![Screenshot](./doc/images/s1.png)
 
 
 ```sh
