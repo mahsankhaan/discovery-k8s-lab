@@ -67,6 +67,7 @@ ibmcloud cr namespace-add $ICR_NAMESPACE
 
 ```sh
 export APP_IMAGENAME=us.icr.io/$ICR_NAMESPACE/discovery-demo-app:v1
+echo $APP_IMAGENAME
 docker build -t $APP_IMAGENAME .
 docker push $APP_IMAGENAME
 ```
