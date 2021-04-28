@@ -95,7 +95,8 @@ kubectl create secret generic discovery-credentials --from-literal=api-key=$DISC
 
 ### Step 7
 
-Now we will deploy our built image to Kubernetes. First, update the [deployment.yaml](./server/deployment.yaml) file to match your image name. You should update the line 24's image value - updating just the namespace will do just fine. **This is important!** Not changing the image name will cause your pod to not find any images. After doing that, we can deploy:
+Now we will deploy our built image to Kubernetes. First, update the [./server/deployment.yaml](./server/deployment.yaml) file to match your image name. You should update the line 24's image value - updating just the namespace will do just fine. **This is important!** Not changing the image name will cause your pod to not find any images. 
+After doing that, we can deploy:
 
 ```sh
 kubectl apply -f server/deployment.yaml
