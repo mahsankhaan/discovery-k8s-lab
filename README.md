@@ -38,11 +38,6 @@ Start by logging in to IBM Cloud:
 
 ![Screenshot](./doc/images/s1.png)
 
-
-```sh
-ibmcloud login
-```
-
 ### Step 2
 
 Login to IBM Container Registry as well, don't select any region:
