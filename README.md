@@ -6,7 +6,7 @@ In this lab, we will deploy a simple app, that serves a Single Page Application 
 
 ## Prerequisites
 
-- Create [IBM Cloud](https://ibm.biz/BdfsdZ) account 
+- Create [IBM Cloud](https://ibm.biz/BdfZED) account 
 - [Docker](https://www.docker.com/get-started)
 - [IBM Cloud CLI](https://github.com/IBM-Cloud/ibm-cloud-cli-release#downloads)
 - [Kubectl](https://v1-18.docs.kubernetes.io/docs/tasks/tools/install-kubectl/)
