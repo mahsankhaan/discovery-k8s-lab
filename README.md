@@ -76,9 +76,8 @@ docker push $APP_IMAGENAME
 ### Step 5
 Connect to your IBM Kubernetes Service (IKS) cluster
     
- ```sh
-ibmcloud ks cluster config --cluster <your_cluster_name>    
- ```
+![Screenshot](./doc/images/s4.png)
+
 
 The cluster name is the one you chose when creating it. In case you forgot, you can check that in the [IBM Cloud resource list](https://cloud.ibm.com/resources), under `Clusters`.
 
