@@ -1,4 +1,4 @@
-# Deploy a web application on IBM Kubernetes Service
+# Deploy a Watson Discovery application on IBM Kubernetes Service
 
 ## Introduction
 
