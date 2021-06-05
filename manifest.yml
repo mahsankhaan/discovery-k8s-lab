@@ -1,7 +1,6 @@
 applications:
     - path: .
       instances: 1
-      domain: mybluemix.net
-      name: cfcgamec
-      host: cfcgamec
+      name: cfcgameg
+      host: cfcgameg
       buildpack: sdk-for-nodejs
