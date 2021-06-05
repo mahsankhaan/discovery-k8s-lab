@@ -1,7 +1,0 @@
-applications:
-    - path: .
-      instances: 1
-      name: cfcgamel
-      host: cfcgamel
-      buildpack: sdk-for-nodejs
-
