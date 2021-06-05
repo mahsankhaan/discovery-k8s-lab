@@ -3,4 +3,3 @@ applications:
       instances: 1
       name: cfcgameg
       host: cfcgameg
-      buildpack: sdk-for-nodejs
